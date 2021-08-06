@@ -43,3 +43,8 @@ plt.show()
 print('\033[92m' + all_positive_tweets[random.randint(0,5000)])
 # print negative in red
 print('\033[91m' + all_negative_tweets[random.randint(0,5000)])
+
+
+#Part 2 -Language Processing
+tweet = all_positive_tweets[2277]
+print(tweet)

@@ -15,7 +15,7 @@ print("Features: ", cancer.feature_names)
 print("Labels: ", cancer.target_names)
 
 # print data(feature)shape
-cancer.data.shape
+print("Shape: ",cancer.data.shape)
 
 print("\nData: ",cancer.data)
 print("\nTarget: ",cancer.target)
@@ -24,7 +24,7 @@ from sklearn.model_selection import train_test_split
 
 #split data set into train and test sets
 data_train, data_test, target_train, target_test = train_test_split(cancer.data,
-                        cancer.target, test_size = 0.4, random_state = 26)
+                        cancer.target, test_size = 0.4, random_state = 30)
 
 gnb = GaussianNB()
 

@@ -30,7 +30,7 @@ X_train, X_test, y_train, y_test = train_test_split(
 
 #Create a Decision Tree Classifier (using Gini)
 clf_gini = DecisionTreeClassifier(criterion = "gini",
-            random_state = 26,max_depth=7, min_samples_leaf=26)
+            random_state = 30,max_depth=7, min_samples_leaf=30)
 
 clf_gini.fit(X_train, y_train)
 

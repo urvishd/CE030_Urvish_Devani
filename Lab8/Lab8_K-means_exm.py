@@ -18,7 +18,7 @@ print(dataset.target.shape)
 
 """K-Mean Model"""
 
-kmeans = KMeans(n_clusters=10, random_state=0)
+kmeans = KMeans(n_clusters=2, random_state=0)
 prediction = kmeans.fit_predict(dataset.data)
 prediction
 
